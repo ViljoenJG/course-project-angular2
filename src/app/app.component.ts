@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ROUTER_DIRECTIVES } from '@angular/router';
 import { HeaderComponent } from './header.component';
 import { RecipesComponent } from './recipes';
 import { ShoppingListComponent } from "./shopping-list/shopping-list.component";
@@ -8,7 +9,7 @@ import { ShoppingListComponent } from "./shopping-list/shopping-list.component";
   selector: 'rb-root',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.css'],
-  directives: [HeaderComponent, RecipesComponent, ShoppingListComponent],
+  directives: [HeaderComponent, ROUTER_DIRECTIVES],
 })
 export class AppComponent {
 }
