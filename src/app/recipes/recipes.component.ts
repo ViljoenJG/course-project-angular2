@@ -1,7 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 import { RecipeListComponent } from "./recipe-list";
-import { Recipe } from "./recipe";
 
 @Component({
   moduleId: module.id,
